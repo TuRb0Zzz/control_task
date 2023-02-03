@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
     int ar[100]{};
-
     randomFilling(ar,100,100,150);
     bubbleSort(ar,100);
     showEl(ar,100);
