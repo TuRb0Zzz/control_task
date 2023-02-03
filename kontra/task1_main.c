@@ -15,7 +15,7 @@ int main()
             if (ar[j]==ar[i]){
                 counter+=1;
             }
-        bar[i]= counter;
+        bar[i] = counter;
 
 
         }
