@@ -10,4 +10,3 @@ void bubbleSort(int* ar,int size);
 int showEl(int* ar, int size);
 
 #endif
-
