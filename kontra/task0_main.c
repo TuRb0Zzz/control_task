@@ -1,5 +1,6 @@
 #include <iostream>
-using namwspace std;
+using namespace std;
+#include "work.h"
 int main()
 {
     int ar[1000]{};
