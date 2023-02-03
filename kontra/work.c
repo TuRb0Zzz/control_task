@@ -4,7 +4,6 @@
 using namespace std;
 
 
-
 int getMax(int* ar, int size){
     static int recursionsize=0;
     static int ind=0;
