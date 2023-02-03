@@ -9,7 +9,6 @@ int getMax(int* ar, int size){
     static int ind=0;
     static int max=ar[ind];
     if (ind == size-1){
-        cout<<"recursion depth "<<recursionsize<<endl;
         return(max);
     }
     if (max <= ar[ind]){
@@ -26,7 +25,6 @@ int getMin(int* ar, int size){
     static int recursionsize=0;
     static int min=ar[index];
     if (index == size-1){
-        cout<<"recursion depth "<<recursionsize<<endl;
         return(min);
     }
     if (min >= ar[index]){
