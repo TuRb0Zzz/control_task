@@ -5,7 +5,7 @@ using namespace std;
 
 
 int getMax(int* ar, int size){
-    static int recursionsize=0;
+    foo();
     static int ind=0;
     static int max=ar[ind];
     if (ind == size-1){
@@ -19,10 +19,8 @@ int getMax(int* ar, int size){
 }
 
 int getMin(int* ar, int size){
-
+    foo();
     static int index=0;
-
-    static int recursionsize=0;
     static int min=ar[index];
     if (index == size-1){
         return(min);
