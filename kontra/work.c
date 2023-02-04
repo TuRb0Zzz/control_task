@@ -65,3 +65,8 @@ void bubbleSort(int* ar,int size){
     }
 }
 
+int foo(){
+    static int counter=0;
+    counter++;
+    return counter;
+}
